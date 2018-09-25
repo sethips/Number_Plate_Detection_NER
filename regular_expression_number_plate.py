@@ -1,7 +1,7 @@
 
 import re 
 def find_number_plate(text):
-	email = re.findall(r'', text)
+	email = re.findall(r'(([a-zA-Z]){2}\d{4})', text)
 	return email
      
 def get_task_1(text):
